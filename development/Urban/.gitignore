@@ -16,7 +16,8 @@ venv/
 *.log
 
 # Data files
-data/air_quality.json
+/data/raw
+
 
 # OS-specific files
 .DS_Store
