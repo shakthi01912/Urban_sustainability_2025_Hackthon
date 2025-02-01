@@ -1,4 +1,4 @@
-# Step 1: Defining Research Questions & Key Variables
+📌 Step 1: Defining Research Questions & Key Variables
 
 ## Main Research Question
 How do building features affect energy efficiency across boroughs in London?
@@ -27,15 +27,11 @@ How do building features affect energy efficiency across boroughs in London?
 | `AGG_EPC_CURRENT_ENERGY_RATING_BY_COUNT` | Energy rating (A-G scale) |
 | `AGG_EPC_POTENTIAL_ENERGY_EFFICIENCY_BY_COUNT` | Predicted efficiency if improved |
 
----
 
-### ✅ **Step 1 Completed**
-
-Next: **Step 2 - Data Exploration & Summary Statistics**
 
 
 📌 Next: Step 2 - Data Exploration & Summary Statistics
-Now, we’ll start coding in Python to:
+
 
 Summarize key statistics (mean, median, min, max) for numerical variables.
 Visualize the distribution of energy efficiency ratings across boroughs.
