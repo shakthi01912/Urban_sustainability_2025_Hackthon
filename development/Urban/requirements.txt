@@ -6,6 +6,7 @@ seaborn
 python-dotenv
 geopandas
 pyarrow
+matplotlib_venn
 
 #  pip install -r requirements.txt
 # python -m venv venv
