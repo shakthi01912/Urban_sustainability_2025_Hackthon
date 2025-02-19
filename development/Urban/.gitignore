@@ -17,7 +17,8 @@ venv/
 
 # Data files
 /data/raw
-*.csv
+
+development/Urban/EE_ER_By_CensusArea/Revised_Energy_Efficiency_Cleaned.csv
 
 # OS-specific files
 .DS_Store
