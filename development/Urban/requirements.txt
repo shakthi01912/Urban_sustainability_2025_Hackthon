@@ -7,6 +7,7 @@ python-dotenv
 geopandas
 pyarrow
 matplotlib_venn
+# pip install statsmodels
 
 #  pip install -r requirements.txt
 # python -m venv venv
