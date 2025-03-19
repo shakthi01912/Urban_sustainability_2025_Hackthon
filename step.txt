@@ -1,0 +1,38 @@
+📌 Step 1: Defining Research Questions & Key Variables
+
+## Main Research Question
+How do building features affect energy efficiency across boroughs in London?
+
+## Sub-questions:
+1. How does the **age of housing stock** impact energy efficiency?  
+2. How do **building materials** and **construction styles** influence energy efficiency?  
+3. Are there significant disparities in energy efficiency ratings across boroughs?  
+4. How do energy efficiency disparities relate to **fuel poverty**?  
+5. What boroughs have **implemented policies** to improve energy efficiency?  
+6. How can **green building innovations** improve energy efficiency?
+
+## Key Variables Selected:
+| **Feature** | **Relevance** |
+|------------|--------------|
+| `UPRN` | Unique identifier for properties |
+| `EASTING`, `NORTHING`, `LATITUDE`, `LONGITUDE` | Location details for spatial analysis |
+| `WARD`, `ADMINISTRATIVE_AREA` | Borough-level grouping |
+| `ESTIMATED_FLOOR_COUNT` | Indicator of building structure |
+| `ESTIMATE_TOTAL_FLOOR_AREA_ALL` | Building size and potential insulation requirements |
+| `SCU_FOOTPRINT` | Building footprint (impacts energy consumption) |
+| `MEAN_OBJECT_HEIGHT_M` | Can relate to insulation efficiency |
+| `MIX_CLASS` | Type of building (domestic vs. non-domestic) |
+| `EPC_RATING_COUNT_DOM`, `EPC_RATING_COUNT_NONDOM` | Number of EPC certificates (energy efficiency measure) |
+| `AGG_EPC_CURRENT_ENERGY_EFFICIENCY_BY_COUNT` | Average energy efficiency per building |
+| `AGG_EPC_CURRENT_ENERGY_RATING_BY_COUNT` | Energy rating (A-G scale) |
+| `AGG_EPC_POTENTIAL_ENERGY_EFFICIENCY_BY_COUNT` | Predicted efficiency if improved |
+
+
+
+
+📌 Next: Step 2 - Data Exploration & Summary Statistics
+
+
+Summarize key statistics (mean, median, min, max) for numerical variables.
+Visualize the distribution of energy efficiency ratings across boroughs.
+Check for missing values and outliers.

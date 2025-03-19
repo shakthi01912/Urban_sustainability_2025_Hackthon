@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Environment variables file
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environment
+venv/
+
+# Logs and debug files
+*.log
+
+# Data files
+/data/raw
+
+development/Urban/EE_ER_By_CensusArea/Revised_Energy_Efficiency_Cleaned.csv
+
+# OS-specific files
+.DS_Store
+Thumbs.db
